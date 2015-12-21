@@ -20,7 +20,7 @@ qubit.opentag.LibraryTag.define(
 				uv: ""
 			}, {
 				name: "Site URL",
-				description: "Web site URL, without 'www.'",
+				description: "Web site URL, without www.",
 				token: "url",
 				uv: ""
 			}]
