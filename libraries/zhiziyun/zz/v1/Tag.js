@@ -31,8 +31,8 @@ qubit.opentag.LibraryTag.define("zhiziyun.zz.v1.Tag", {
 	},
 	script: function() {
 		/*SCRIPT*/
-		var _zzsiteid = this.valueForToken("zz_site_id");
-		var _zzid = this.valueForToken("zz_id");
+		window._zzsiteid = this.valueForToken("zz_site_id");
+		window._zzid = this.valueForToken("zz_id");
 		(function() {
 	  		var zz = document.createElement('script');
 	  		zz.type = 'text/javascript';
