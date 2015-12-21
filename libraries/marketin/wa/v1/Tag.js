@@ -33,9 +33,9 @@ qubit.opentag.LibraryTag.define("marketin.wa.v1.Tag", {
 	},
 	post: function() {
 		/*POST*/
-		window.piwikTracker = Piwik.getTracker("//wa.marketin.cn/wa.php", this.valueForToken("ma_site_id"));
-		piwikTracker.trackPageView();
-		piwikTracker.enableLinkTracking();
+		window.waTracker = MA.getTracker("//wa.marketin.cn/wa.php", this.valueForToken("ma_site_id"));
+		waTracker.trackPageView();
+		waTracker.enableLinkTracking();
 		/*~POST*/
 	}
 });
