@@ -1,9 +1,9 @@
 //:include tagsdk-current.js
 
-qubit.opentag.LibraryTag.define("zhiziyun.zz.v1.Tag", {
+qubit.opentag.LibraryTag.define("zhiziyun.zzcode.v1.Tag", {
 	config: {
 		/*DATA*/
-		name: "zz",
+		name: "zzcode",
 		async: true,
 		description: "zhiyiyum.com tracking",
 		html: "",
