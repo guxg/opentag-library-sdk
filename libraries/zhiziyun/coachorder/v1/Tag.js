@@ -75,7 +75,7 @@ qubit.opentag.LibraryTag.define("zhiziyun.coachorder.v1.Tag", {
 
 			var _i, _ii;
 			for (_i = 0, _ii = _products.length; _i < _ii; _i += 1) {
-				_zzot.push(['' + _products[_i].sku_code, '' + _products[_i].quantity, '' + _products[_i].unit_sale_price ]); //订单详情	
+				_zzot.push(['' + _products[_i].product.sku_code, '' + _products[_i].product.quantity, '' + _products[_i].product.unit_sale_price ]); //订单详情	
 			}
 
 			console.log(_zzot);
